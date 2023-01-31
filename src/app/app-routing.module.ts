@@ -6,8 +6,10 @@ import { MainComponent } from './pages/main/main.component';
 
 const routes: Routes = [
   {path: "main", component: MainComponent},
-  {path: "fk", component: FkComponent},
-  {path: "year", component: YearComponent },
+  {path: "fk", component: FkComponent, children:[
+    {path: "year", component: YearComponent}
+  ]},
+  
 
   {path: "**", redirectTo: "main"}
 ];
