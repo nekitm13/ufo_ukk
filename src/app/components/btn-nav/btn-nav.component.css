@@ -1,0 +1,15 @@
+li{
+    background-color: blue;
+    padding: 0.5rem;   
+    display: block;
+    border: 1.5px rgb(249, 250, 252) solid;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 0;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,18 @@
+header {
+    /* margin-left: 200px; */
+    color: white;
+    margin: 0;
+    padding: 10px 200px;
+    /* display: inline; */
+    background: linear-gradient(to right, red, 20%, rgb(223, 63, 63));
+}
+.navigation {
+    display: flex;
+    /* position: relative;
+    left: 200px; */
+    width: 900px;
+    padding: 0;
+    
+    flex-wrap: wrap;
+    
+}
