@@ -8,8 +8,9 @@ import { Component } from '@angular/core';
 export class HeaderComponent {
   btns = [
     {title: "Физическая культура", link: "fk"},
-    {title: "Доп. Образование", link: ""},
-    {title: "ВСОШ", link: ""},
+    {title: "Доп. Образование", link: "DO"},
+    {title: "ВСОШ", link: "vsoh"},
     {title: "Военно-патриотическое направление", link: ""},
+
   ]
 }
